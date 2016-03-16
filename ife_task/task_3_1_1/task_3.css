@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    margin: 0px;
+    min-width: 680px;
+}
+
+div#passage-body{
+	
+	background-color: #EEEEEE;
+	padding: 20px;
+	width:90%;
+	height: 500px;
+	border: #999999 solid; 
+	border-width:1px;
+}
+
+div#passage-body .team-left{
+	background-color: white;
+	padding: 20px;
+	border:#999999 solid; 
+	border-width:1px;
+	width:200px;
+	height:90px;
+	float:left;
+}
+
+div#passage-body .team-right{
+    float: right;
+    width: 80px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    height:400px;
+}
+
+div#passage-body .team-middle{
+    margin-left:260px;
+    margin-right:140px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    height:400px;
+
+}
+
+.team-logo{
+	width:80px;
+	height:80px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+h1{
+    float: right;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
