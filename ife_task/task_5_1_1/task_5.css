@@ -1,0 +1,236 @@
+html, body, div, span,  object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q,  samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+    vertical-align: baseline; 
+} /*清除边缘空余*/
+
+#header{
+	background-color:#B3C3D2;
+	height:70px; 
+}
+
+#header .header-logo{
+	float:left;
+}
+
+#header .header-logo img{
+	height: 70px;
+}
+
+#header .header-nav{
+	float:right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#header .header-nav li{
+	display:inline-block;
+}
+
+#header .header-nav a:link,
+#header .header-nav a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#header .header-nav a:hover{
+	text-decoration: none;
+	color: #F1B4C3;
+}
+
+#header .header-nav a:active{
+	text-decoration: none;
+	color: blue;
+}
+
+#passage-body {
+	background-color: #DCDCDC;
+    padding:20px;
+    height: 100%;
+}
+
+#passage-body .passage-left{
+	float:left;
+	background-color: #DCDCDC;
+	padding:0;
+    width:60%;
+}
+div .block{
+	background-color: white;
+	padding:20px;
+    box-shadow:3px 3px 3px #333;
+    margin-bottom: 20px;
+}
+
+#passage-body .passage-right{
+	background-color: white;
+	padding:20px;
+    box-shadow:3px 3px 3px #333;
+    margin-bottom: 20px;
+    float:right;
+    width:35%;
+}
+
+
+div.block h2{
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+div.block h3{
+	text-align: left;
+	font-size: 18px;
+}
+
+div.block p.passage-info{
+	text-align: left;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 2px;
+}
+
+div.block p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: normal;
+	text-indent: 30px;
+}
+
+div.block ul li{
+	list-style-type: none;
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+
+div.block div.picture{
+	border: solid 1px #DCDCDC;
+	margin: 20px;
+	width: 240px;
+}
+
+div.block div.picture p{
+	text-align: center;
+}
+
+div.block div.picture img{
+	width: 200px;
+	height: 130px;
+	margin: 20px;
+}
+
+div.block ol{
+	margin-left: 50px;
+}
+
+div.block ol li{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+
+div.block table{
+	border: 1px solid  white;
+	width: 100%;
+	border-spacing: 0;
+}
+
+div.block tr th{
+	background-color: black;
+	border: 1px solid  #DCDCDC;
+	color: white;
+}
+
+div.block tr td{
+	border: 1px solid  #DCDCDC;
+}
+
+div.block tr.tablesum{
+	background-color: #DCDCDC;
+	border: 1px solid  #CCCCCC;
+}
+
+#passage-body .passage-right h2{
+	text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+#passage-body .passage-right div.inp{
+    display: block;
+	margin: 20px;
+	text-align: center;
+}
+
+/*确认按钮*/
+#passage-body .passage-right div.inp input[type="submit"]{
+	width: 100%;
+	background: #3355D0;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#passage-body .passage-right div.tip{
+	height: 25px;
+	text-align: center;
+	float: center;
+}
+
+
+#passage-body .passage-right div.tip p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+    text-align: center;
+}
+
+
+
+
+.bottom {
+  clear: both;
+}
+
+div#footer{
+	background-color: #B3C3D2;
+	height: 40px;
+	padding: 20px;
+}
+div#footer div.copy{
+
+}
+div#footer p{
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
