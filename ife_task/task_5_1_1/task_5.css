@@ -61,16 +61,10 @@ thead, tr, th, td {
 }
 
 #passage-body .passage-left{
-	float:left;
-	background-color: #DCDCDC;
-	padding:0;
-    width:60%;
-}
-div .block{
-	background-color: white;
-	padding:20px;
-    box-shadow:3px 3px 3px #333;
-    margin-bottom: 20px;
+    padding:0;
+    float: left;
+    margin-left:0px;
+    margin-right: 350px;
 }
 
 #passage-body .passage-right{
@@ -79,9 +73,18 @@ div .block{
     box-shadow:3px 3px 3px #333;
     margin-bottom: 20px;
     float:right;
-    width:35%;
+    width:300px;
+    position: absolute;
+    top: 90px;
+    right: 20px;
 }
 
+div .block{
+	background-color: white;
+	padding:20px;
+    box-shadow:3px 3px 3px #333;
+    margin-bottom: 20px;
+}
 
 div.block h2{
     text-align: left;
