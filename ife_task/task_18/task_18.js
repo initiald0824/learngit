@@ -8,6 +8,18 @@ window.onload = function () {
     var rightOut = document.getElementById("right-out");
     var display = document.getElementById("display");
 
+
+
+    function pankong (str){
+
+
+      if (str == null || str == undefined || str == '') {
+        return false;
+      }
+      else
+        return  true;
+    }
+
     function addEvent(element, type, handler) {
         if (element.addEventListener) {
             element.addEventListener(type, handler, false);
@@ -19,17 +31,37 @@ window.onload = function () {
     }
 
     addEvent (leftIn,"click",function(){
-        var li = document.createElement("li");
-        li.innerHTML = text.value;
-        console.log("leftin");
-        display.insertBefore(li,display.firstChild);      
+        
+        var result = pankong(text.value);
+        console.log(result);
+
+        if (result){
+            if(text.value.match(/^\d+$/)){
+                var li = document.createElement("li");
+                li.innerHTML = text.value;
+                display.insertBefore(li,display.firstChild);
+            }
+            else   alert("输入必须为数字");
+        }
+        else 
+            alert("输入为空");
     });
 
-    addEvent (rightIn,"click",function(){
-        var li = document.createElement("li");
-        li.innerHTML = text.value;
-        console.log("rightIn");
-        display.appendChild(li);
+    addEvent (rightIn,"click",function(){      
+
+        var result = pankong(text.value);
+        console.log(result);
+
+        if (result){
+            if(text.value.match(/^\d+$/)){
+                var li = document.createElement("li");
+                li.innerHTML = text.value;
+                display.appendChild(li);
+            }
+            else   alert("输入必须为数字");
+        }
+        else 
+            alert("输入为空");
     });
 
     addEvent (leftOut,"click",function(){
