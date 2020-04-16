@@ -4,3 +4,5 @@ Git has a mutable index called stage.
 Git tracks changes.
 ttt
 hotfix
+issue 53
+stash test
