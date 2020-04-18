@@ -6,5 +6,7 @@ ttt
 hotfix
 issue 53
 stash test
--------------------------------------
-master forward rebase -i ^
+master forward rebase -i ^^
+experiment
+amend
+master forward
