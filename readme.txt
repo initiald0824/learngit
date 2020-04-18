@@ -8,3 +8,5 @@ issue 53
 stash test
 -------------------------------------
 master forward
+experiment
+amend
