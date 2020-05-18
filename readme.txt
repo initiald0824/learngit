@@ -13,3 +13,4 @@ master forward
 experiment
 amend
 commit 1
+test revert
