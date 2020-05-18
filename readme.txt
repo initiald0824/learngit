@@ -12,6 +12,5 @@ amend
 master forward
 experiment
 amend
--------------------------
 commit 1
 commit 3
